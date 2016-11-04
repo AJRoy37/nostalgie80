@@ -6,6 +6,18 @@
 section {
     margin: 5% 0;
 }
+.row{
+     margin: 2% 0;
+}
+
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:none;
+    background-color: rgba(255, 0, 20, 0.7) !important;
+}
 
 .navbar-toggle .icon-bar {
     display: block;
@@ -93,14 +105,6 @@ nav img {
     width: 90%;
 }
 
-.fleches {
-    width: 90%;
-    height: 60px;
-}
-
-.quatre-images {
-    background-image: url(..//images/background/pacman.jpg.jpg);
-}
 
 h2 {
     color: rgba(255, 0, 20, 0.7);
@@ -135,10 +139,10 @@ h4 {
     text-align: center;
 }
 
-.sept-images {
+/*.sept-images {
     width: 100%;
     margin: 0 auto;
-}
+}*/
 
 .video {
     width: 100%;
@@ -152,7 +156,7 @@ iframe {
     margin: auto;
 }
 
-.sept-images p {
+.musique p {
     font-size: 1em;
     margin-top: 8%;
     color: antiquewhite;
@@ -175,6 +179,15 @@ aside {
     width: 80%;
 }
 
+
+.musique {
+    margin-top: 1%;
+}
+
+.musique img {
+    min-height: 120px;
+}
+
 .films {
     width: 100%;
     text-align: center;
@@ -188,12 +201,17 @@ aside {
     color: rgba(255, 0, 20, 0.7);
 }
 
-.musique {
-    margin-top: 1%;
+.films img {
+    max-height: 200px;
 }
 
-.musique img {
-    min-height: 120px;
+
+.emissions p{
+    color: #fff;
+}
+
+.emissions img {
+    min-height:200px;
 }
 
 footer {
@@ -250,4 +268,12 @@ footer h5 {
     form {
         display: none;
     }
+    
+    .quatre-images {
+    background-image: none;
+  
+
+  
+ 
+}
 }
